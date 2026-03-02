@@ -57,3 +57,48 @@ input:focus{
     box-shadow: 0 0 15px #00f7ff inset;
     border-color: #00f7ff;
 }
+
+button{
+    background: linear-gradient(45deg, #ff00ff, #00f7ff);    
+    border: none;
+    padding: 12px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    color: white;
+    box-shadow: 0 0 15px #00f7ff;
+    transition: 0.3s;
+}
+button:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 25px #ff00ff;
+}
+
+ul{
+    color: white;
+    margin-top: 20px;
+}
+
+li{
+    margin-bottom: 10px;
+    padding: 8px;
+    border-radius: 8px;
+    background: rgba(0, 247, 255, 0.1);
+    box-shadow: 0 0 10px #00f7ff;
+    list-style: none;
+}
+
+#contador{
+    margin-top: 20px;
+    text-align: center;
+    color: #ff00ff;
+    font-weight: bold;
+    text-shadow: 0 0 10px #ff00ff;
+}
+
+#mensagemErro{
+    color: #ff0033;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 0 0 10px red;
+}
